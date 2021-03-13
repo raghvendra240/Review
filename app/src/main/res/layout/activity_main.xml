@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="32dp"
+            android:src="@drawable/backbtn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Order details"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/food1" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="67dp"
+            android:src="@drawable/food2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 items orderd"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See details"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/hr1"
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:background="#444" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Order ID" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:autoText="true"
+            android:gravity="right"
+            android:text="ORDERNUMBER4867392208600039"
+            android:textColor="#000000"
+            android:textFontWeight="1"
+            android:typeface="normal"
+            app:autoSizeMaxTextSize="18dp"
+            app:autoSizeMinTextSize="10dp"
+            app:autoSizeTextType="uniform" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:background="#444" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Order Date" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="right"
+            android:text="Oct 23,2019 9:08 PM"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <TableRow
+
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:background="#444" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Payment Mode" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="right"
+            android:text="PHONEPE"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:background="#444" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="169dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/location" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="OFFICE"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/address"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:autoText="false"
+                android:text="Instruction : Call on arrival,bring cutlery"
+                app:autoSizeMaxTextSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TableRow
+        android:layout_width="380dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:background="#444" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cooking" />
+
+        <TableRow
+            android:id="@+id/cooking"
+            android:layout_width="40dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="30dp"
+            android:background="#444"
+            android:gravity="bottom" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cooking" />
+
+        <TableRow
+            android:id="@+id/picked"
+            android:layout_width="40dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="30dp"
+            android:background="#444"
+            android:gravity="bottom" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cooking" />
+
+        <TableRow
+            android:id="@+id/onWay"
+            android:layout_width="40dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="30dp"
+            android:background="#444"
+            android:gravity="bottom" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cooking" />
+
+        <TableRow
+            android:id="@+id/delivered"
+            android:layout_width="40dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="30dp"
+            android:background="#444"
+            android:gravity="bottom" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cooking" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/trackOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track order" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report abuse"
+        android:visibility="gone" />
+
+
+</LinearLayout>
